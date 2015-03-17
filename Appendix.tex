@@ -1,0 +1,186 @@
+\documentclass[titlepage,a4paper,14pt]{book}
+\usepackage[top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm]{geometry}
+\usepackage{ctex}
+\usepackage{ccmap}
+\usepackage{pdfpages}
+\usepackage{amsthm}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{verbatim}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{cases}%必须放amsmath下面，否则会冲突
+\usepackage[colorlinks,bookmarksnumbered=true,bookmarksopen=true,CJKbookmarks=true,linkcolor=black,anchorcolor=black,citecolor=black]{hyperref}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage[title,titletoc]{appendix}
+\usepackage[svgnames,x11names]{xcolor}
+\usepackage[titles,subfigure]{tocloft}
+\lstset{tabsize=4, %
+  frame=single, %把代码用带有阴影的框圈起来
+  keywordstyle=\color[rgb]{0,0,1},
+  commentstyle=\color[rgb]{0.133,0.545,0.133},
+  stringstyle=\color[rgb]{0.627,0.126,0.941},
+  %commentstyle=\color{red!50!green!50!blue!50},%浅灰色的注释
+  rulesepcolor=\color{red!20!green!20!blue!20},%代码块边框为淡青色
+  %keywordstyle=\color{blue!90}\bfseries, %代码关键字的颜色为蓝色，粗体
+  showstringspaces=false,%不显示代码字符串中间的空格标记
+  stringstyle=\ttfamily, % 代码字符串的特殊格式
+  keepspaces=true, %
+  breakindent=22pt, %
+  numbers=left,%左侧显示行号
+  stepnumber=1,%
+  numberstyle=\footnotesize, %行号字体用小号
+  basicstyle=\footnotesize, %
+  showspaces=false, %
+  flexiblecolumns=true, %
+  breaklines=true, %对过长的代码自动换行
+  breakautoindent=true,%
+  breakindent=4em, %
+  escapebegin=\begin{CJK*}{GBK}{hei},escapeend=\end{CJK*},
+  aboveskip=1em, %代码块边框
+  %% added by http://bbs.ctex.org/viewthread.php?tid=53451
+  fontadjust,
+  captionpos=t,
+  framextopmargin=2pt,framexbottommargin=2pt,abovecaptionskip=-3pt,belowcaptionskip=3pt,
+  xleftmargin=4em,xrightmargin=4em, % 设定listing左右的空白
+  texcl=true,
+  % 设定中文冲突，断行，列模式，数学环境输入，listing数字的样式
+  extendedchars=false,columns=flexible,mathescape=true
+  % numbersep=-1em
+}
+
+  \def\CU@definezihao#1#2#3{
+  \def#1{\fontsize{#2}{#3}\selectfont}}
+
+\CU@definezihao{\zihaochu}{42}{50}
+\CU@definezihao{\zihaoxiaochu}{36}{44}
+\CU@definezihao{\zihaoyi}{28}{34}
+\CU@definezihao{\zihaoer}{22}{26}
+\CU@definezihao{\zihaoxiaoer}{18}{22}
+\CU@definezihao{\zihaosan}{15.7}{19}
+\CU@definezihao{\zihaosi}{14}{17}
+\CU@definezihao{\zihaoxiaosi}{12}{14}
+\CU@definezihao{\zihaowu}{10.5}{12}
+\CU@definezihao{\zihaoxiaowu}{9}{11}
+\CU@definezihao{\zihaoliu}{7.875}{9}
+\CU@definezihao{\zihaoqi}{5.25}{6}
+
+\titleformat{\section}{\zihaosi\bfseries}{$\S\;$\thesection}{1em}{}
+\titleformat{\subsection}{\zihaoxiaosi\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\zihaoxiaosi\bfseries}{\thesubsubsection}{1em}{}
+
+\renewcommand{\figurename}{\zihaowu{Figure}}
+
+\makeatletter
+  \newcommand\figcaption{\def\@captype{figure}\caption}
+  \newcommand\tabcaption{\def\@captype{table}\caption}
+\makeatother
+%\pagestyle{headings}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{1pt}  %页眉线宽，设为0可以去页眉线
+%\lhead{{Code ACM!}}
+%\chead{}
+%\rhead{\leftmark}
+%\lfoot{}
+%\cfoot{}
+%\rfoot{Page \thepage\ of \pageref{LastPage}}
+\fancyhead{}
+\fancyhead[LO,RE]{{TEAM \#\emph{xiaohai}}}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot{}
+\fancyfoot[RO,LE]{Page \thepage\ of \pageref{LastPage}}
+\begin{document}
+\thispagestyle{empty}
+\begin{title}
+\
+\begin{center}
+\ \\ \ \\ \ \\ \ \\ \ \\ \ \\
+\textbf{\zihaoxiaoer{The Code Library of xiaohai}}\\
+\zihaoxiaosi{\textbf{Version 2.0}}\\
+\zihaosi{\textbf{Volume 3 (Appendix)}}
+\ \\
+\ \\
+\zihaosi{\textbf{xiaohai}}\\
+\zihaosi{\emph{Lingxiao Ma\ \ \ \ \ Yi Li\ \ \ \ \ Lanjun Duan\ \ \ \ \ Anran Li}}\\
+\ \\
+\zihaosi{College of Imformation Science and Technology}\\
+\zihaosi{Beijing Normal University}
+\ \\ \ \\ \ \\ \ \\
+\end{center}
+\begin{center}
+  \includegraphics[width=300 pt]{title.png}
+\end{center}
+\begin{center}
+\ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\
+  \zihaosi{\today}
+\end{center}
+\end{title}
+\thispagestyle{empty}
+\newpage
+\ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\
+\ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\
+\ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\ \ \\
+\textbf{Copyright \copyright\ 2012-2014 {TEAM \#\emph{xiaohai}}}
+\thispagestyle{empty}
+\newpage
+%\title{The Code Library of xiaohai}
+%\author{\textbf{xiaohai} \\ \emph{xysmlx\ \ \ \ \ liyi\ \ \ \ \ lianran} \\ \\ College of Imformation Science and Technology \\ Beijing Normal University\\
+%}
+%\maketitle
+%\thispagestyle{fancy}
+\tableofcontents
+%\thispagestyle{fancy}
+\newpage
+\appendix
+\chapter{常用公式}
+\includepdfmerge{math.pdf,1-10}
+\chapter{JAVA基础(From 琨神)}
+\includepdfmerge{JAVA.pdf,1-6}
+\chapter{Standard Templete Library(From 琨神)}
+\includepdfmerge{STL.pdf,1-14}
+\chapter{Number Theory(From 郭思瑶)}
+\includepdfmerge{NumberTheory.pdf,1-14}
+\chapter{Computational Geometry(From 詹钰)}
+\section{二维几何}
+\includepdfmerge{2DGeometry.pdf,1-33}
+\section{三维几何}
+\includepdfmerge{3DGeometry.pdf,1-12}
+\chapter{程序对拍}
+\paragraph{说明}
+\begin{description}
+  \item[数据] data.exe
+  \item[标程] std.exe
+  \item[程序] my.exe
+\end{description}
+\paragraph{Windows}
+\begin{verbatim}
+:loop
+data.exe > data.txt
+std.exe < data.txt > std.txt
+my.exe < data.txt > my.txt
+fc /A std.txt my.txt
+if not errorlevel 1 goto loop
+pause
+:end
+
+start data.txt
+start std.txt
+start my.txt
+\end{verbatim}
+\paragraph{Linux}
+\begin{verbatim}
+#!/bin/bash
+while true; do
+  ./data >input
+  ./std  < input > std.txt
+  ./my   < input > my.txt
+  diff std.txt my.txt
+  if [ $? -ne 0 ] ; then break; fi
+done
+\end{verbatim}
+\end{document} 
