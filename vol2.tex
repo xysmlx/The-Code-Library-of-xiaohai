@@ -1300,7 +1300,7 @@ struct TwoSAT
 \begin{enumerate}
   \item 把该图的无向边随便定向，计算每个点的入度和出度。如果有某个点出入度之差为奇数，那么肯定不存在欧拉回路。因为欧拉回路要求每点入度 = 出度，也就是总度数为偶数，存在奇数度点必不能有欧拉回路。
   \item 现在每个点入度和出度之差均为偶数。将这个偶数除以2，得x。 即是说，对于每一个点，只要将x条边反向（入>出就是变入，出>入就是变出），就能保证出 = 入。如果每个点都是出 = 入，那么很明显，该图就存在欧拉回路。
-  \item 构造网络流模型。有向边不能改变方向，直接删掉。开始已定向的无向边，定的是什么向，就把网络构建成什么样，边长容量上限1。另新建s和t。对于入 $>$ 出的点u，连接边(u, t)、容量为x，对于出 $>$ 入的点v，连接边(s, v)，容量为x （注意对不同的点x 不同。当初由于不小心，在这里错了好几次）。之后，察看是否有满流的分配。有就是能有欧拉回路，没有就是没有。查看流值分配，将所有流量非 0（上限是1，流值不是0就是1）的边反向，就能得到每点入度 = 出度的欧拉图。
+  \item 构造网络流模型。有向边不能改变方向，直接删掉。开始已定向的无向边，定的是什么向，就把网络构建成什么样，边长容量上限1。 另新建s和t。对于入 $>$ 出的点u，连接边(u, t)、容量为x，对于出 $>$ 入的点v，连接边(s, v)，容量为x （注意对不同的点x 不同。当初由于不小心，在这里错了好几次）。之后，察看是否有满流的分配。有就是能有欧拉回路，没有就是没有。查看流值分配，将所有流量非 0（上限是1，流值不是0就是1）的边反向，就能得到每点入度 = 出度的欧拉图。
 \end{enumerate}
 \subsubsection{有向图}
 \paragraph{非递归}
@@ -4198,11 +4198,11 @@ void toposort()
 \end{verbatim}
 \subsection{非负权值加权图的最短路径：朴素Dijkstra算法(适用稠密图)($O(V^2)$)}
 \begin{verbatim}
-/*
-Dijkstra 数组实现 O(V^2)
-Dijkstra --- 数组实现(在此基础上可直接改为STL的Queue实现)
-d[] --- st到其他点的最近距离
-path[] -- st为根展开的树,记录父亲结点
+/**
+*Dijkstra 数组实现 O(V^2)
+*Dijkstra --- 数组实现(在此基础上可直接改为STL的Queue实现)
+*d[] --- st到其他点的最近距离
+*path[] -- st为根展开的树,记录父亲结点
 */
 const int maxn = 0;
 const int inf = 0x3f3f3f3f;
@@ -6228,7 +6228,7 @@ struct DINIC
         if (!aug) d[u] = -1;
         return aug;
     }
-    int Dinic(int NdFlow)
+    int dinic(int NdFlow)
     {
         int flow = 0;
         while (BFS())
@@ -6453,7 +6453,7 @@ struct ISAP
         }
         return a;
     }
-    int ISAP(int NdFlow)
+    int isap(int NdFlow)
     {
         int flow = 0;
         bfs();
@@ -6701,7 +6701,7 @@ struct HLPP
             //        if(in_flow[ed]>=NdFlow) break;
         }
     }
-    int HLPP()
+    int hlpp()
     {
         memset(in_flow, 0, sizeof(in_flow));
         for (int i = 0; i < n; i++)

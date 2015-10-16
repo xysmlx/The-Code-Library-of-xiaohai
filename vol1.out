@@ -1,0 +1,233 @@
+\BOOKMARK [0][]{chapter*.2}{Preface}{}% 1
+\BOOKMARK [1][]{section.0.1}{0.1 Acknowledgement}{chapter*.2}% 2
+\BOOKMARK [1][]{section.0.2}{0.2 Build History}{chapter*.2}% 3
+\BOOKMARK [-1][]{part.1}{I Fundamental}{}% 4
+\BOOKMARK [0][]{chapter.1}{1 JAVA\(详见附录琨神模板\)}{part.1}% 5
+\BOOKMARK [1][]{section.1.1}{1.1 代码框架}{chapter.1}% 6
+\BOOKMARK [1][]{section.1.2}{1.2 String}{chapter.1}% 7
+\BOOKMARK [1][]{section.1.3}{1.3 BigInteger}{chapter.1}% 8
+\BOOKMARK [1][]{section.1.4}{1.4 BigDecimal}{chapter.1}% 9
+\BOOKMARK [1][]{section.1.5}{1.5 分数 Fraction}{chapter.1}% 10
+\BOOKMARK [0][]{chapter.2}{2 Technology}{part.1}% 11
+\BOOKMARK [1][]{section.2.1}{2.1 代码框架}{chapter.2}% 12
+\BOOKMARK [1][]{section.2.2}{2.2 手动扩栈}{chapter.2}% 13
+\BOOKMARK [1][]{section.2.3}{2.3 输出格式控制}{chapter.2}% 14
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 C}{section.2.3}% 15
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 C++}{section.2.3}% 16
+\BOOKMARK [1][]{section.2.4}{2.4 输入输出优化}{chapter.2}% 17
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 输入整数\(正/负\)}{section.2.4}% 18
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 输出整数}{section.2.4}% 19
+\BOOKMARK [0][]{chapter.3}{3 Standard Templete Library\(详见附录琨神模板\)}{part.1}% 20
+\BOOKMARK [1][]{section.3.1}{3.1 vector\204数组/向量}{chapter.3}% 21
+\BOOKMARK [1][]{section.3.2}{3.2 list\204表}{chapter.3}% 22
+\BOOKMARK [1][]{section.3.3}{3.3 string\204字符串}{chapter.3}% 23
+\BOOKMARK [1][]{section.3.4}{3.4 map/multimap\204 映射/多重映射}{chapter.3}% 24
+\BOOKMARK [1][]{section.3.5}{3.5 queue\204队列}{chapter.3}% 25
+\BOOKMARK [1][]{section.3.6}{3.6 deque\204双向队列}{chapter.3}% 26
+\BOOKMARK [1][]{section.3.7}{3.7 stack\204栈}{chapter.3}% 27
+\BOOKMARK [1][]{section.3.8}{3.8 priority\137queue\204 优先队列/最大堆}{chapter.3}% 28
+\BOOKMARK [1][]{section.3.9}{3.9 set/multiset\204 集合/多重集合}{chapter.3}% 29
+\BOOKMARK [1][]{section.3.10}{3.10 algorithm\204算法}{chapter.3}% 30
+\BOOKMARK [0][]{chapter.4}{4 Attention}{part.1}% 31
+\BOOKMARK [1][]{section.4.1}{4.1 Tips}{chapter.4}% 32
+\BOOKMARK [1][]{section.4.2}{4.2 Error}{chapter.4}% 33
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Compile Error}{section.4.2}% 34
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Runtime Error}{section.4.2}% 35
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Time Limit Exceeded}{section.4.2}% 36
+\BOOKMARK [1][]{section.4.3}{4.3 Debug Technology}{chapter.4}% 37
+\BOOKMARK [-1][]{part.2}{II Mathematics}{}% 38
+\BOOKMARK [0][]{chapter.5}{5 Basic}{part.2}% 39
+\BOOKMARK [1][]{section.5.1}{5.1 高精度算法}{chapter.5}% 40
+\BOOKMARK [2][]{subsection.5.1.1}{5.1.1 大整数类 From kuangbin}{section.5.1}% 41
+\BOOKMARK [2][]{subsection.5.1.2}{5.1.2 大整数类}{section.5.1}% 42
+\BOOKMARK [2][]{subsection.5.1.3}{5.1.3 高精度FFT乘法\(O\(NlgN\)\)}{section.5.1}% 43
+\BOOKMARK [1][]{section.5.2}{5.2 统计x\(二进制\)中1的个数\(未知复杂度\)}{chapter.5}% 44
+\BOOKMARK [1][]{section.5.3}{5.3 二进制生成子集\(O\(2N\)\)}{chapter.5}% 45
+\BOOKMARK [0][]{chapter.6}{6 Computation Mathematics}{part.2}% 46
+\BOOKMARK [1][]{section.6.1}{6.1 计算中序表达式\(O\(n\)\)}{chapter.6}% 47
+\BOOKMARK [1][]{section.6.2}{6.2 快速幂取模\(O\(lgn\)\)}{chapter.6}% 48
+\BOOKMARK [1][]{section.6.3}{6.3 二分法：单调函数\(O\(lg\(nf\(n\)\)\)\)}{chapter.6}% 49
+\BOOKMARK [1][]{section.6.4}{6.4 迭代法\(略\)}{chapter.6}% 50
+\BOOKMARK [1][]{section.6.5}{6.5 三分法：凸性函数\(O\(lg\(nf\(n\)\)\)\)}{chapter.6}% 51
+\BOOKMARK [1][]{section.6.6}{6.6 解线性方程组}{chapter.6}% 52
+\BOOKMARK [2][]{subsection.6.6.1}{6.6.1 LU 分解\(方阵\)\(O\(N3\)\)\(优于高斯消元\)}{section.6.6}% 53
+\BOOKMARK [2][]{subsection.6.6.2}{6.6.2 高斯消元\(O\(N3\)\)}{section.6.6}% 54
+\BOOKMARK [1][]{section.6.7}{6.7 解模线性方程或方程组\(未知复杂度\)}{chapter.6}% 55
+\BOOKMARK [1][]{section.6.8}{6.8 定积分计算}{chapter.6}% 56
+\BOOKMARK [2][]{subsection.6.8.1}{6.8.1 自适应辛普森}{section.6.8}% 57
+\BOOKMARK [2][]{subsection.6.8.2}{6.8.2 Romberg}{section.6.8}% 58
+\BOOKMARK [1][]{section.6.9}{6.9 多项式求根: 牛顿法}{chapter.6}% 59
+\BOOKMARK [1][]{section.6.10}{6.10 周期性方程: 追赶法}{chapter.6}% 60
+\BOOKMARK [1][]{section.6.11}{6.11 线性规划\(单纯形法\)}{chapter.6}% 61
+\BOOKMARK [1][]{section.6.12}{6.12 快速傅立叶变换}{chapter.6}% 62
+\BOOKMARK [1][]{section.6.13}{6.13 随机算法}{chapter.6}% 63
+\BOOKMARK [1][]{section.6.14}{6.14 0/1 分数规划}{chapter.6}% 64
+\BOOKMARK [2][]{subsection.6.14.1}{6.14.1 Theorm}{section.6.14}% 65
+\BOOKMARK [2][]{subsection.6.14.2}{6.14.2 Dinkelbach算法\(O\(lg\(nM\)\)\)}{section.6.14}% 66
+\BOOKMARK [2][]{subsection.6.14.3}{6.14.3 二分法}{section.6.14}% 67
+\BOOKMARK [1][]{section.6.15}{6.15 迭代逼近}{chapter.6}% 68
+\BOOKMARK [1][]{section.6.16}{6.16 矩阵快速幂\(O\(lgn\)\)}{chapter.6}% 69
+\BOOKMARK [0][]{chapter.7}{7 Combinatorics}{part.2}% 70
+\BOOKMARK [1][]{section.7.1}{7.1 排列数}{chapter.7}% 71
+\BOOKMARK [1][]{section.7.2}{7.2 组合数}{chapter.7}% 72
+\BOOKMARK [2][]{subsection.7.2.1}{7.2.1 打印组合数表}{section.7.2}% 73
+\BOOKMARK [2][]{subsection.7.2.2}{7.2.2 Theorm}{section.7.2}% 74
+\BOOKMARK [1][]{section.7.3}{7.3 鸽笼原理和Ramsey 定理}{chapter.7}% 75
+\BOOKMARK [2][]{subsection.7.3.1}{7.3.1 鸽笼原理}{section.7.3}% 76
+\BOOKMARK [2][]{subsection.7.3.2}{7.3.2 Ramsey 定理}{section.7.3}% 77
+\BOOKMARK [1][]{section.7.4}{7.4 常用的公式和数}{chapter.7}% 78
+\BOOKMARK [2][]{subsection.7.4.1}{7.4.1 Sum of Reciprocal\(1/n\) Approximation}{section.7.4}% 79
+\BOOKMARK [2][]{subsection.7.4.2}{7.4.2 生成Gray码}{section.7.4}% 80
+\BOOKMARK [2][]{subsection.7.4.3}{7.4.3 Catalan Number}{section.7.4}% 81
+\BOOKMARK [2][]{subsection.7.4.4}{7.4.4 Lucas Number}{section.7.4}% 82
+\BOOKMARK [2][]{subsection.7.4.5}{7.4.5 Stirling Number}{section.7.4}% 83
+\BOOKMARK [2][]{subsection.7.4.6}{7.4.6 Bell Number}{section.7.4}% 84
+\BOOKMARK [2][]{subsection.7.4.7}{7.4.7 Farey Sequence\(法雷序列\)}{section.7.4}% 85
+\BOOKMARK [2][]{subsection.7.4.8}{7.4.8 五角形数定理\(Function Partion P\)}{section.7.4}% 86
+\BOOKMARK [2][]{subsection.7.4.9}{7.4.9 折线划分平面}{section.7.4}% 87
+\BOOKMARK [1][]{section.7.5}{7.5 Plya Counting}{chapter.7}% 88
+\BOOKMARK [2][]{subsection.7.5.1}{7.5.1 Burnside引理\(O\(nsp\)\)}{section.7.5}% 89
+\BOOKMARK [2][]{subsection.7.5.2}{7.5.2 Plya Counting\(O\(sp\)\)}{section.7.5}% 90
+\BOOKMARK [2][]{subsection.7.5.3}{7.5.3 求置换的循环节}{section.7.5}% 91
+\BOOKMARK [1][]{section.7.6}{7.6 生成函数}{chapter.7}% 92
+\BOOKMARK [1][]{section.7.7}{7.7 离散变换与反演}{chapter.7}% 93
+\BOOKMARK [0][]{chapter.8}{8 Game Theory}{part.2}% 94
+\BOOKMARK [1][]{section.8.1}{8.1 Basic Game}{chapter.8}% 95
+\BOOKMARK [2][]{subsection.8.1.1}{8.1.1 Bash Game}{section.8.1}% 96
+\BOOKMARK [2][]{subsection.8.1.2}{8.1.2 Wythoff Game}{section.8.1}% 97
+\BOOKMARK [2][]{subsection.8.1.3}{8.1.3 翻硬币游戏}{section.8.1}% 98
+\BOOKMARK [2][]{subsection.8.1.4}{8.1.4 Green Hackenbush}{section.8.1}% 99
+\BOOKMARK [1][]{section.8.2}{8.2 简单取子游戏}{chapter.8}% 100
+\BOOKMARK [2][]{subsection.8.2.1}{8.2.1 游戏模型}{section.8.2}% 101
+\BOOKMARK [2][]{subsection.8.2.2}{8.2.2 NIM 取石子游戏}{section.8.2}% 102
+\BOOKMARK [1][]{section.8.3}{8.3 Sprague-Grundy 理论}{chapter.8}% 103
+\BOOKMARK [2][]{subsection.8.3.1}{8.3.1 游戏定义}{section.8.3}% 104
+\BOOKMARK [2][]{subsection.8.3.2}{8.3.2 Sprague-Grundy 函数}{section.8.3}% 105
+\BOOKMARK [2][]{subsection.8.3.3}{8.3.3 游戏模型}{section.8.3}% 106
+\BOOKMARK [2][]{subsection.8.3.4}{8.3.4 算法和模板}{section.8.3}% 107
+\BOOKMARK [0][]{chapter.9}{9 Number Theory\(更多详见附录郭思瑶模板\)}{part.2}% 108
+\BOOKMARK [1][]{section.9.1}{9.1 GCD}{chapter.9}% 109
+\BOOKMARK [2][]{subsection.9.1.1}{9.1.1 Theorm}{section.9.1}% 110
+\BOOKMARK [2][]{subsection.9.1.2}{9.1.2 欧几里得算法}{section.9.1}% 111
+\BOOKMARK [2][]{subsection.9.1.3}{9.1.3 拓展欧几里得算法}{section.9.1}% 112
+\BOOKMARK [1][]{section.9.2}{9.2 LCM}{chapter.9}% 113
+\BOOKMARK [1][]{section.9.3}{9.3 约数}{chapter.9}% 114
+\BOOKMARK [2][]{subsection.9.3.1}{9.3.1 求约数的个数}{section.9.3}% 115
+\BOOKMARK [2][]{subsection.9.3.2}{9.3.2 求n的所有约数之和\(O\(N\)\)}{section.9.3}% 116
+\BOOKMARK [1][]{section.9.4}{9.4 欧拉函数PHI\(x\)}{chapter.9}% 117
+\BOOKMARK [2][]{subsection.9.4.1}{9.4.1 欧拉函数PHI\(x\) 定义}{section.9.4}% 118
+\BOOKMARK [2][]{subsection.9.4.2}{9.4.2 计算PHI\(n\)\(O\(N\)\)}{section.9.4}% 119
+\BOOKMARK [2][]{subsection.9.4.3}{9.4.3 打印PHI\(n\) 表\(O\(NN\)\)}{section.9.4}% 120
+\BOOKMARK [2][]{subsection.9.4.4}{9.4.4 PHI\(x\) 应用}{section.9.4}% 121
+\BOOKMARK [1][]{section.9.5}{9.5 打印素数表\(O\(N\)\)}{chapter.9}% 122
+\BOOKMARK [1][]{section.9.6}{9.6 分解质因数\(O\(N\)\)}{chapter.9}% 123
+\BOOKMARK [2][]{subsection.9.6.1}{9.6.1 分解质因数\(无素数表版\)}{section.9.6}% 124
+\BOOKMARK [2][]{subsection.9.6.2}{9.6.2 分解质因数\(素数表版,适合批量\)}{section.9.6}% 125
+\BOOKMARK [1][]{section.9.7}{9.7 求n!被p\(素数\)整除的p 的个数}{chapter.9}% 126
+\BOOKMARK [1][]{section.9.8}{9.8 Primitive Root || 费马小定理}{chapter.9}% 127
+\BOOKMARK [2][]{subsection.9.8.1}{9.8.1 Theorm}{section.9.8}% 128
+\BOOKMARK [2][]{subsection.9.8.2}{9.8.2 求Primitive Root\(未知复杂度\)}{section.9.8}% 129
+\BOOKMARK [1][]{section.9.9}{9.9 同余乘：避免乘法溢出\(未知复杂度\)}{chapter.9}% 130
+\BOOKMARK [0][]{chapter.10}{10 Computational Geometry\(详见附录詹钰模板\)}{part.2}% 131
+\BOOKMARK [1][]{section.10.1}{10.1 二维几何定义}{chapter.10}% 132
+\BOOKMARK [2][]{subsection.10.1.1}{10.1.1 常量}{section.10.1}% 133
+\BOOKMARK [2][]{subsection.10.1.2}{10.1.2 常用}{section.10.1}% 134
+\BOOKMARK [2][]{subsection.10.1.3}{10.1.3 点\(Point2D\)}{section.10.1}% 135
+\BOOKMARK [2][]{subsection.10.1.4}{10.1.4 线段\(Segment2D\)}{section.10.1}% 136
+\BOOKMARK [2][]{subsection.10.1.5}{10.1.5 直线\(Line2D\)}{section.10.1}% 137
+\BOOKMARK [2][]{subsection.10.1.6}{10.1.6 圆\(Circle\)}{section.10.1}% 138
+\BOOKMARK [2][]{subsection.10.1.7}{10.1.7 多边形\(POLYGON\)}{section.10.1}% 139
+\BOOKMARK [2][]{subsection.10.1.8}{10.1.8 凸包\(CONVEX2D\)}{section.10.1}% 140
+\BOOKMARK [1][]{section.10.2}{10.2 二维几何基本操作}{chapter.10}% 141
+\BOOKMARK [2][]{subsection.10.2.1}{10.2.1 得到直线上一点\(GetPointOnLine\)}{section.10.2}% 142
+\BOOKMARK [2][]{subsection.10.2.2}{10.2.2 两点构造直线\(MakeLine2D\)}{section.10.2}% 143
+\BOOKMARK [2][]{subsection.10.2.3}{10.2.3 构造两点的中垂线\(MidPerpLine2D\)}{section.10.2}% 144
+\BOOKMARK [2][]{subsection.10.2.4}{10.2.4 点是否在线段上\(PointOnSeg2D\)}{section.10.2}% 145
+\BOOKMARK [2][]{subsection.10.2.5}{10.2.5 判断直线相交\(LineLineIntersect2D\)}{section.10.2}% 146
+\BOOKMARK [2][]{subsection.10.2.6}{10.2.6 判断线段相交\(SegIntersect2D\)}{section.10.2}% 147
+\BOOKMARK [2][]{subsection.10.2.7}{10.2.7 三点夹角\(GetAnglePoint2D\)}{section.10.2}% 148
+\BOOKMARK [2][]{subsection.10.2.8}{10.2.8 点关于直线的对称点\(PointSymmetryOnLine2D\)}{section.10.2}% 149
+\BOOKMARK [2][]{subsection.10.2.9}{10.2.9 反射方向\(ReflectDir\)}{section.10.2}% 150
+\BOOKMARK [2][]{subsection.10.2.10}{10.2.10 点到直线距离\(PointToLine2D\)}{section.10.2}% 151
+\BOOKMARK [2][]{subsection.10.2.11}{10.2.11 点到线段距离\(PointToSegment2D\)}{section.10.2}% 152
+\BOOKMARK [2][]{subsection.10.2.12}{10.2.12 点在直线上的投影\(GetLineProjection\)}{section.10.2}% 153
+\BOOKMARK [2][]{subsection.10.2.13}{10.2.13 线段与线段距离\(SegmentToSegment2D\)}{section.10.2}% 154
+\BOOKMARK [2][]{subsection.10.2.14}{10.2.14 点到线段最短距离\(PointToSegment2D\)}{section.10.2}% 155
+\BOOKMARK [2][]{subsection.10.2.15}{10.2.15 直线与直线距离\(LineToLine2D\)}{section.10.2}% 156
+\BOOKMARK [2][]{subsection.10.2.16}{10.2.16 直线关于点对称\(LineSymmetryOnPoint2D\)}{section.10.2}% 157
+\BOOKMARK [2][]{subsection.10.2.17}{10.2.17 直线与直线的夹角\(LineLineArc\)}{section.10.2}% 158
+\BOOKMARK [2][]{subsection.10.2.18}{10.2.18 直线l1逆时针转到l2的角度\(LineLineRotArc\)}{section.10.2}% 159
+\BOOKMARK [2][]{subsection.10.2.19}{10.2.19 直线关于直线对称\(LineSymmetryOnLine2D\)}{section.10.2}% 160
+\BOOKMARK [2][]{subsection.10.2.20}{10.2.20 直线与圆的交点\(CircleLineIntersect\)}{section.10.2}% 161
+\BOOKMARK [2][]{subsection.10.2.21}{10.2.21 三点非共线直线确定圆\(PointMakeCircle2D\)}{section.10.2}% 162
+\BOOKMARK [2][]{subsection.10.2.22}{10.2.22 圆上的点p与弧ab的位置关系\(PointOnArc2D\)}{section.10.2}% 163
+\BOOKMARK [2][]{subsection.10.2.23}{10.2.23 两圆交点\(CirCirIntersect\)}{section.10.2}% 164
+\BOOKMARK [2][]{subsection.10.2.24}{10.2.24 弓形的面积}{section.10.2}% 165
+\BOOKMARK [2][]{subsection.10.2.25}{10.2.25 两圆/圆环的面积交和并\(CircleUnionArea, CircleCommonArea\)}{section.10.2}% 166
+\BOOKMARK [2][]{subsection.10.2.26}{10.2.26 多圆的面积交和并\(CirclesUnionArea,CirclesCommonArea\)}{section.10.2}% 167
+\BOOKMARK [2][]{subsection.10.2.27}{10.2.27 求圆外一点到圆的两个切点\(OutTangentPoint\)}{section.10.2}% 168
+\BOOKMARK [2][]{subsection.10.2.28}{10.2.28 多边形有向面积\(PolyArea\)}{section.10.2}% 169
+\BOOKMARK [2][]{subsection.10.2.29}{10.2.29 多边形重心\(PolyCenter\)}{section.10.2}% 170
+\BOOKMARK [2][]{subsection.10.2.30}{10.2.30 点与多边形位置关系\(PointInPolygon\)}{section.10.2}% 171
+\BOOKMARK [2][]{subsection.10.2.31}{10.2.31 半平面求交}{section.10.2}% 172
+\BOOKMARK [2][]{subsection.10.2.32}{10.2.32 }{section.10.2}% 173
+\BOOKMARK [2][]{subsection.10.2.33}{10.2.33 }{section.10.2}% 174
+\BOOKMARK [2][]{subsection.10.2.34}{10.2.34 }{section.10.2}% 175
+\BOOKMARK [2][]{subsection.10.2.35}{10.2.35 }{section.10.2}% 176
+\BOOKMARK [2][]{subsection.10.2.36}{10.2.36 }{section.10.2}% 177
+\BOOKMARK [2][]{subsection.10.2.37}{10.2.37 }{section.10.2}% 178
+\BOOKMARK [2][]{subsection.10.2.38}{10.2.38 }{section.10.2}% 179
+\BOOKMARK [1][]{section.10.3}{10.3 二维几何算法}{chapter.10}% 180
+\BOOKMARK [2][]{subsection.10.3.1}{10.3.1 平面最近点对\(O\(NlgN\)\)}{section.10.3}% 181
+\BOOKMARK [2][]{subsection.10.3.2}{10.3.2 最小圆覆盖点\(O\(N\)\)}{section.10.3}% 182
+\BOOKMARK [1][]{section.10.4}{10.4 三维几何定义}{chapter.10}% 183
+\BOOKMARK [2][]{subsection.10.4.1}{10.4.1 }{section.10.4}% 184
+\BOOKMARK [1][]{section.10.5}{10.5 三维几何算法}{chapter.10}% 185
+\BOOKMARK [2][]{subsection.10.5.1}{10.5.1 }{section.10.5}% 186
+\BOOKMARK [-1][]{part.3}{III Data Structure}{}% 187
+\BOOKMARK [0][]{chapter.11}{11 基本数据结构}{part.3}% 188
+\BOOKMARK [1][]{section.11.1}{11.1 队列}{chapter.11}% 189
+\BOOKMARK [1][]{section.11.2}{11.2 堆}{chapter.11}% 190
+\BOOKMARK [1][]{section.11.3}{11.3 并查集}{chapter.11}% 191
+\BOOKMARK [2][]{subsection.11.3.1}{11.3.1 扩展+异或\(la 4487\)}{section.11.3}% 192
+\BOOKMARK [2][]{subsection.11.3.2}{11.3.2 元素的删除与计数}{section.11.3}% 193
+\BOOKMARK [2][]{subsection.11.3.3}{11.3.3 权值排序+维护根\(长春区域赛E\)}{section.11.3}% 194
+\BOOKMARK [0][]{chapter.12}{12 高级数据结构}{part.3}% 195
+\BOOKMARK [1][]{section.12.1}{12.1 线段树}{chapter.12}% 196
+\BOOKMARK [2][]{subsection.12.1.1}{12.1.1 单值更新}{section.12.1}% 197
+\BOOKMARK [2][]{subsection.12.1.2}{12.1.2 段操作（整体区间操作）}{section.12.1}% 198
+\BOOKMARK [2][]{subsection.12.1.3}{12.1.3 hash+成段更新}{section.12.1}% 199
+\BOOKMARK [2][]{subsection.12.1.4}{12.1.4 区间交并补等}{section.12.1}% 200
+\BOOKMARK [2][]{subsection.12.1.5}{12.1.5 连续区间合并问题}{section.12.1}% 201
+\BOOKMARK [2][]{subsection.12.1.6}{12.1.6 扫描线}{section.12.1}% 202
+\BOOKMARK [2][]{subsection.12.1.7}{12.1.7 重要题目}{section.12.1}% 203
+\BOOKMARK [1][]{section.12.2}{12.2 伸展树\(SPlay\)}{chapter.12}% 204
+\BOOKMARK [2][]{subsection.12.2.1}{12.2.1 SPlay模板一}{section.12.2}% 205
+\BOOKMARK [2][]{subsection.12.2.2}{12.2.2 SPlay模板二}{section.12.2}% 206
+\BOOKMARK [1][]{section.12.3}{12.3 RMQ}{chapter.12}% 207
+\BOOKMARK [0][]{chapter.13}{13 字符串}{part.3}% 208
+\BOOKMARK [1][]{section.13.1}{13.1 KMP}{chapter.13}% 209
+\BOOKMARK [2][]{subsection.13.1.1}{13.1.1 普通KMP}{section.13.1}% 210
+\BOOKMARK [2][]{subsection.13.1.2}{13.1.2 拓展KMP}{section.13.1}% 211
+\BOOKMARK [1][]{section.13.2}{13.2 后缀数组}{chapter.13}% 212
+\BOOKMARK [2][]{subsection.13.2.1}{13.2.1 后缀数组模板}{section.13.2}% 213
+\BOOKMARK [2][]{subsection.13.2.2}{13.2.2 倍增算法构造后缀数组}{section.13.2}% 214
+\BOOKMARK [2][]{subsection.13.2.3}{13.2.3 应用：子串多次出现在多个串中}{section.13.2}% 215
+\BOOKMARK [2][]{subsection.13.2.4}{13.2.4 应用：不同子串个数}{section.13.2}% 216
+\BOOKMARK [2][]{subsection.13.2.5}{13.2.5 应用：重复次数最多的连续子串}{section.13.2}% 217
+\BOOKMARK [2][]{subsection.13.2.6}{13.2.6 应用：最长不重复子串}{section.13.2}% 218
+\BOOKMARK [1][]{section.13.3}{13.3 AC自动机}{chapter.13}% 219
+\BOOKMARK [1][]{section.13.4}{13.4 回文串}{chapter.13}% 220
+\BOOKMARK [2][]{subsection.13.4.1}{13.4.1 判回文串}{section.13.4}% 221
+\BOOKMARK [2][]{subsection.13.4.2}{13.4.2 最长回文串}{section.13.4}% 222
+\BOOKMARK [1][]{section.13.5}{13.5 Other}{chapter.13}% 223
+\BOOKMARK [2][]{subsection.13.5.1}{13.5.1 字符串哈希\(推荐BKDR\)}{section.13.5}% 224
+\BOOKMARK [2][]{subsection.13.5.2}{13.5.2 最小表示法 \046 最大表示法}{section.13.5}% 225
+\BOOKMARK [2][]{subsection.13.5.3}{13.5.3 找某个字符串的不同子串的数目\(O\(N2\)\)}{section.13.5}% 226
+\BOOKMARK [0][]{chapter.14}{14 树}{part.3}% 227
+\BOOKMARK [1][]{section.14.1}{14.1 树的分治}{chapter.14}% 228
+\BOOKMARK [2][]{subsection.14.1.1}{14.1.1 树的重心：POJ 1655 Balancing Art}{section.14.1}% 229
+\BOOKMARK [2][]{subsection.14.1.2}{14.1.2 树链剖分}{section.14.1}% 230
+\BOOKMARK [1][]{section.14.2}{14.2 动态树\(LCT\)}{chapter.14}% 231
+\BOOKMARK [2][]{subsection.14.2.1}{14.2.1 HDU 4010}{section.14.2}% 232
+\BOOKMARK [2][]{subsection.14.2.2}{14.2.2 HDU 5002}{section.14.2}% 233
