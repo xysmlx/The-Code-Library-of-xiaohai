@@ -6024,7 +6024,7 @@ int bfs()
     queue<int> q;
     int flow[maxn];
     memset(path,-1,sizeof(path));//每次搜索前都把路径初始化成-1
-    path[st]=0;
+    path[st]=st;
     flow[st]=inf;//源点可以有无穷的流流进
     q.push(st);
     while(!q.empty())
@@ -6037,7 +6037,7 @@ int bfs()
         {
             if(i!=st&&path[i]==-1&&g[t][i])
             {
-                flow[i]=flow[t]<g[t][i]?flow[t]:g[t][i];
+                flow[i]=min(flow[t],g[t][i]);
                 q.push(i);
                 path[i]=t;
             }
@@ -6088,7 +6088,7 @@ int bfs()
     int tflow[maxn];
     queue<int> q;
     memset(path,-1,sizeof(path));//每次搜索前都把路径初始化成-1
-    path[st]=0;
+    path[st]=st;
     tflow[st]=inf;//源点可以有无穷的流流进
     q.push(st);
     while(!q.empty())
@@ -6101,7 +6101,7 @@ int bfs()
         {
             if(i!=st&&path[i]==-1&&cap[t][i])
             {
-                tflow[i]=tflow[t]<cap[t][i]?tflow[t]:cap[t][i];
+                tflow[i]=min(tflow[t],cap[t][i]);
                 q.push(i);
                 path[i]=t;
             }

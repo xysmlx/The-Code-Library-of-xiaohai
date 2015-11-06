@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.26)  16 OCT 2015 20:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.26)  6 NOV 2015 16:23
 entering extended mode
-**D:/Codes/The-Code-Library-of-xiaohai/vol2.tex
-(D:/Codes/The-Code-Library-of-xiaohai/vol2.tex
+**vol2.tex
+(D:\Codes\The-Code-Library-of-xiaohai\vol2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\CTEX\MiKTeX\tex\latex\base\book.cls
@@ -2181,17 +2181,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 8903.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 8903.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 8903.
 
-Package rerunfilecheck Info: File `vol2.out' has not changed.
-(rerunfilecheck)             Checksum: CFAC1126D0274B2461CE87CCF8A7C162;8877.
+
+
+Package rerunfilecheck Warning: File `vol2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `vol2.out':
+(rerunfilecheck)             Before: 0C8321EB58D5CA6D8EBE92B22A23C9D7;25068
+(rerunfilecheck)             After:  CFAC1126D0274B2461CE87CCF8A7C162;8877.
  ) 
 Here is how much of TeX's memory you used:
  19655 strings out of 495354
  306165 string characters out of 3183579
- 399185 words of memory out of 3000000
+ 399186 words of memory out of 3000000
  21825 multiletter control sequences out of 15000+200000
  61546 words of font info for 215 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,12n,43p,871b,1246s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,43p,834b,1246s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
 imhei.ttf><C:/Windows/Fonts/simfang.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
 s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
@@ -2244,7 +2251,7 @@ ic/amsfonts/cm/cmsy10.pfb><C:/CTEX/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy7.pfb><C:/CTEX/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/CTE
 X/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/CTEX/CTEX/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on vol2.pdf (208 pages, 1456055 bytes).
+Output written on vol2.pdf (208 pages, 1472252 bytes).
 PDF statistics:
  2205 PDF objects out of 2487 (max. 8388607)
  349 named destinations out of 1000 (max. 500000)

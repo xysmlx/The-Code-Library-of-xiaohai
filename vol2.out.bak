@@ -1,0 +1,102 @@
+\BOOKMARK [-1][]{part.4}{IV Algorithm}{}% 1
+\BOOKMARK [0][]{chapter.15}{15 Graph Theory}{part.4}% 2
+\BOOKMARK [1][]{section.15.1}{15.1 Theorm}{chapter.15}% 3
+\BOOKMARK [1][]{section.15.2}{15.2 图数据结构}{chapter.15}% 4
+\BOOKMARK [2][]{subsection.15.2.1}{15.2.1 链式前向星}{section.15.2}% 5
+\BOOKMARK [1][]{section.15.3}{15.3 搜索}{chapter.15}% 6
+\BOOKMARK [2][]{subsection.15.3.1}{15.3.1 Dancing Links}{section.15.3}% 7
+\BOOKMARK [1][]{section.15.4}{15.4 基本图算法}{chapter.15}% 8
+\BOOKMARK [2][]{subsection.15.4.1}{15.4.1 判断是否存在奇环、是否是二分图：交叉染色法\(O\(V+E\)\)}{section.15.4}% 9
+\BOOKMARK [2][]{subsection.15.4.2}{15.4.2 2-SAT 问题\(O\(V+E\)\)}{section.15.4}% 10
+\BOOKMARK [2][]{subsection.15.4.3}{15.4.3 Euler 路径\(未知复杂度\)}{section.15.4}% 11
+\BOOKMARK [2][]{subsection.15.4.4}{15.4.4 Hamilton 回路}{section.15.4}% 12
+\BOOKMARK [2][]{subsection.15.4.5}{15.4.5 弦图判断}{section.15.4}% 13
+\BOOKMARK [1][]{section.15.5}{15.5 无向图}{chapter.15}% 14
+\BOOKMARK [2][]{subsection.15.5.1}{15.5.1 割点\(O\(V+E\)\)}{section.15.5}% 15
+\BOOKMARK [2][]{subsection.15.5.2}{15.5.2 割边\(桥\)\(O\(V+E\)\)}{section.15.5}% 16
+\BOOKMARK [2][]{subsection.15.5.3}{15.5.3 双连通分量：Tarjan算法\(O\(V+E\)\)}{section.15.5}% 17
+\BOOKMARK [2][]{subsection.15.5.4}{15.5.4 无向图的最小环\(O\(N3\)\)}{section.15.5}% 18
+\BOOKMARK [2][]{subsection.15.5.5}{15.5.5 无向图最小割：Stoer-Wagner算法\(O\(N3\)\)}{section.15.5}% 19
+\BOOKMARK [1][]{section.15.6}{15.6 有向图}{chapter.15}% 20
+\BOOKMARK [2][]{subsection.15.6.1}{15.6.1 拓扑排序\(O\(V+E\)\)}{section.15.6}% 21
+\BOOKMARK [2][]{subsection.15.6.2}{15.6.2 强连通分量：Tarjan算法\(O\(V+E\)\)}{section.15.6}% 22
+\BOOKMARK [2][]{subsection.15.6.3}{15.6.3 弱连通分量：Tarjan算法\(O\(V+E\)\)}{section.15.6}% 23
+\BOOKMARK [2][]{subsection.15.6.4}{15.6.4 有向图的最小环\(O\(N3\)\)}{section.15.6}% 24
+\BOOKMARK [2][]{subsection.15.6.5}{15.6.5 有向图最小权点基}{section.15.6}% 25
+\BOOKMARK [1][]{section.15.7}{15.7 树}{chapter.15}% 26
+\BOOKMARK [2][]{subsection.15.7.1}{15.7.1 树的直径}{section.15.7}% 27
+\BOOKMARK [2][]{subsection.15.7.2}{15.7.2 LCA \046 RMQ}{section.15.7}% 28
+\BOOKMARK [2][]{subsection.15.7.3}{15.7.3 最小斯坦纳树\(Steiner Tree\)\(O\(n3k+cE2k\)\)}{section.15.7}% 29
+\BOOKMARK [1][]{section.15.8}{15.8 最小生成树}{chapter.15}% 30
+\BOOKMARK [2][]{subsection.15.8.1}{15.8.1 Prim 算法\(O\(N2\)\)}{section.15.8}% 31
+\BOOKMARK [2][]{subsection.15.8.2}{15.8.2 Kruskal 算法\(稀疏图\)\(O\(ElgE\)\)}{section.15.8}% 32
+\BOOKMARK [2][]{subsection.15.8.3}{15.8.3 增量最小生成树}{section.15.8}% 33
+\BOOKMARK [2][]{subsection.15.8.4}{15.8.4 最小瓶颈路与最小瓶颈生成树}{section.15.8}% 34
+\BOOKMARK [2][]{subsection.15.8.5}{15.8.5 次小生成树\(O\(V2\)\)}{section.15.8}% 35
+\BOOKMARK [2][]{subsection.15.8.6}{15.8.6 第k小生成树}{section.15.8}% 36
+\BOOKMARK [2][]{subsection.15.8.7}{15.8.7 最优比例生成树\(未知复杂度\)}{section.15.8}% 37
+\BOOKMARK [2][]{subsection.15.8.8}{15.8.8 有向图最小树形图\(O\(VE\)\)}{section.15.8}% 38
+\BOOKMARK [2][]{subsection.15.8.9}{15.8.9 最小度限制生成树}{section.15.8}% 39
+\BOOKMARK [2][]{subsection.15.8.10}{15.8.10 最小生成森林\(k颗树\)：改进Kruskal\(O\(E lgE\)\)}{section.15.8}% 40
+\BOOKMARK [2][]{subsection.15.8.11}{15.8.11 平面点的欧几里德最小生成树\(O\(V2\)\)}{section.15.8}% 41
+\BOOKMARK [2][]{subsection.15.8.12}{15.8.12 平面点的曼哈顿最小生成树与莫队算法}{section.15.8}% 42
+\BOOKMARK [2][]{subsection.15.8.13}{15.8.13 最小平衡生成树}{section.15.8}% 43
+\BOOKMARK [2][]{subsection.15.8.14}{15.8.14 生成树计数\(Matrix-Tree定理\)}{section.15.8}% 44
+\BOOKMARK [2][]{subsection.15.8.15}{15.8.15 最小生成树计数\(BZOJ 1016\)}{section.15.8}% 45
+\BOOKMARK [1][]{section.15.9}{15.9 最短路径}{chapter.15}% 46
+\BOOKMARK [2][]{subsection.15.9.1}{15.9.1 有向无环图的最短路径：拓扑排序\(O\(N+E\)\)}{section.15.9}% 47
+\BOOKMARK [2][]{subsection.15.9.2}{15.9.2 非负权值加权图的最短路径：朴素Dijkstra算法\(适用稠密图\)\(O\(V2\)\)}{section.15.9}% 48
+\BOOKMARK [2][]{subsection.15.9.3}{15.9.3 非负权值加权图的最短路径：Dijkstra算法\(二叉堆优化\)\(O\(\(E+V\)lgV\)\)}{section.15.9}% 49
+\BOOKMARK [2][]{subsection.15.9.4}{15.9.4 非负权值加权图的最短路径：Dijkstra 算法\(优先队列优化\)}{section.15.9}% 50
+\BOOKMARK [2][]{subsection.15.9.5}{15.9.5 含负权值加权图的单源最短路径：Bellman-Ford 算法\(适用负环未知\)\(O\(VE\)\)}{section.15.9}% 51
+\BOOKMARK [2][]{subsection.15.9.6}{15.9.6 含负权值加权图的单源最短路径：Bellman-Ford 算法\(栈优化，适用负环未知\)\(O\(VE\)\)}{section.15.9}% 52
+\BOOKMARK [2][]{subsection.15.9.7}{15.9.7 含负权值加权图的单源最短路径：Spfa 算法\(稀疏图\)\(O\(KE\)\)}{section.15.9}% 53
+\BOOKMARK [2][]{subsection.15.9.8}{15.9.8 全源最短路径：Floyd 算法\(O\(V3\)\)}{section.15.9}% 54
+\BOOKMARK [2][]{subsection.15.9.9}{15.9.9 全源最短路径：Johnson 算法\(稀疏图\)\(O\(EVlgV\)\)}{section.15.9}% 55
+\BOOKMARK [2][]{subsection.15.9.10}{15.9.10 次短路径}{section.15.9}% 56
+\BOOKMARK [2][]{subsection.15.9.11}{15.9.11 第k短路径}{section.15.9}% 57
+\BOOKMARK [2][]{subsection.15.9.12}{15.9.12 差分约束系统：SPFA\(O\(KE\)\)}{section.15.9}% 58
+\BOOKMARK [2][]{subsection.15.9.13}{15.9.13 平面点对的最短路径\(优化\)}{section.15.9}% 59
+\BOOKMARK [2][]{subsection.15.9.14}{15.9.14 双标准限制最短路径}{section.15.9}% 60
+\BOOKMARK [1][]{section.15.10}{15.10 匹配}{chapter.15}% 61
+\BOOKMARK [2][]{subsection.15.10.1}{15.10.1 二分图最大匹配：Hungary算法\(O\(VE\)\)}{section.15.10}% 62
+\BOOKMARK [2][]{subsection.15.10.2}{15.10.2 大数据二分图最大匹配：Hopcroft-Karp\(O\(VE\)\)}{section.15.10}% 63
+\BOOKMARK [2][]{subsection.15.10.3}{15.10.3 二分图多重匹配：Hungary算法改\(O\(VE\)\)}{section.15.10}% 64
+\BOOKMARK [2][]{subsection.15.10.4}{15.10.4 二分图的几个等价}{section.15.10}% 65
+\BOOKMARK [2][]{subsection.15.10.5}{15.10.5 二分图带权\(最大/最小\)完备匹配：Kuhn-Munkras算法\(O\(N3\)\)}{section.15.10}% 66
+\BOOKMARK [2][]{subsection.15.10.6}{15.10.6 一般图最大匹配：带花树算法\(未知复杂度\)}{section.15.10}% 67
+\BOOKMARK [2][]{subsection.15.10.7}{15.10.7 稳定婚姻匹配\(O\(N2\)\)}{section.15.10}% 68
+\BOOKMARK [1][]{section.15.11}{15.11 网络流}{chapter.15}% 69
+\BOOKMARK [2][]{subsection.15.11.1}{15.11.1 最大流：Edmonds Karp \(O\(V*E2\)\)}{section.15.11}% 70
+\BOOKMARK [2][]{subsection.15.11.2}{15.11.2 最大流最小割：加各种优化的Dinic算法\(O\(V2E\)\)}{section.15.11}% 71
+\BOOKMARK [2][]{subsection.15.11.3}{15.11.3 最大流最小割：加各种优化的ISAP算法\(O\(V2E\)\)}{section.15.11}% 72
+\BOOKMARK [2][]{subsection.15.11.4}{15.11.4 最大流最小割：加各种优化的HLPP算法\(O\(V2E\)\)}{section.15.11}% 73
+\BOOKMARK [2][]{subsection.15.11.5}{15.11.5 贪心预流：用于分层图Dinic预处理\(ZOJ 2364\)}{section.15.11}% 74
+\BOOKMARK [2][]{subsection.15.11.6}{15.11.6 有上下界的网络流}{section.15.11}% 75
+\BOOKMARK [2][]{subsection.15.11.7}{15.11.7 最小\(大\)费用最大流：SPFA增广路\(O\(w*O\(SPFA\)\)\)}{section.15.11}% 76
+\BOOKMARK [2][]{subsection.15.11.8}{15.11.8 判网络流有多解}{section.15.11}% 77
+\BOOKMARK [2][]{subsection.15.11.9}{15.11.9 判断最小割唯一}{section.15.11}% 78
+\BOOKMARK [2][]{subsection.15.11.10}{15.11.10 最大权闭合子图}{section.15.11}% 79
+\BOOKMARK [2][]{subsection.15.11.11}{15.11.11 最大密度子图}{section.15.11}% 80
+\BOOKMARK [2][]{subsection.15.11.12}{15.11.12 混合图\(有向+无向\)的欧拉路径}{section.15.11}% 81
+\BOOKMARK [2][]{subsection.15.11.13}{15.11.13 二分图最小点权覆盖}{section.15.11}% 82
+\BOOKMARK [2][]{subsection.15.11.14}{15.11.14 二分图最大点权独立集}{section.15.11}% 83
+\BOOKMARK [2][]{subsection.15.11.15}{15.11.15 最小K路径覆盖}{section.15.11}% 84
+\BOOKMARK [2][]{subsection.15.11.16}{15.11.16 点连通度与边连通度}{section.15.11}% 85
+\BOOKMARK [0][]{chapter.16}{16 Dynamic Programming}{part.4}% 86
+\BOOKMARK [1][]{section.16.1}{16.1 线性模型}{chapter.16}% 87
+\BOOKMARK [1][]{section.16.2}{16.2 串模型}{chapter.16}% 88
+\BOOKMARK [1][]{section.16.3}{16.3 状态压缩模型}{chapter.16}% 89
+\BOOKMARK [1][]{section.16.4}{16.4 四边形优化}{chapter.16}% 90
+\BOOKMARK [2][]{subsection.16.4.1}{16.4.1 朴素四边形优化}{section.16.4}% 91
+\BOOKMARK [2][]{subsection.16.4.2}{16.4.2 GarsiaWachs算法\(POJ 1738 An old Stone Game\)}{section.16.4}% 92
+\BOOKMARK [1][]{section.16.5}{16.5 经典问题}{chapter.16}% 93
+\BOOKMARK [2][]{subsection.16.5.1}{16.5.1 最长上升子序列 LIS}{section.16.5}% 94
+\BOOKMARK [2][]{subsection.16.5.2}{16.5.2 最长公共子序列 LCS}{section.16.5}% 95
+\BOOKMARK [2][]{subsection.16.5.3}{16.5.3 最大子矩阵和\(Ural 1146\)}{section.16.5}% 96
+\BOOKMARK [2][]{subsection.16.5.4}{16.5.4 类TSP问题\(状压DP\)\(POJ 3311 Hie with the Pie\)}{section.16.5}% 97
+\BOOKMARK [0][]{chapter.17}{17 Other Algorithms}{part.4}% 98
+\BOOKMARK [1][]{section.17.1}{17.1 Get Min\(A[i]-A[j]\) \(0,1,2,\203,n-1\)}{chapter.17}% 99
+\BOOKMARK [1][]{section.17.2}{17.2 Get a Circle \(Floyd\)}{chapter.17}% 100
+\BOOKMARK [1][]{section.17.3}{17.3 Meet in the Middle}{chapter.17}% 101
+\BOOKMARK [-1][]{part.5}{V Classic Problems}{}% 102
